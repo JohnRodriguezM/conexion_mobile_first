@@ -61,3 +61,15 @@ function traer_Valor5(){
         document.getElementById("parrafo_js").innerHTML = "Pon el número en la casilla adecuada"
     }
 }
+
+//valores indep//
+
+var caja = document.getElementById("caja_final")
+var boton = document.getElementById("boton_final")
+var ess = boton.addEventListener("click",sugerencias)
+
+function sugerencias(){
+
+    if(caja.value = "escribe"){ 
+   alert("su información ha sido enviada")}
+}
