@@ -68,8 +68,13 @@ var caja = document.getElementById("caja_final")
 var boton = document.getElementById("boton_final")
 var ess = boton.addEventListener("click",sugerencias)
 
+
 function sugerencias(){
 
-    if(caja.value = "escribe"){ 
-   alert("su información ha sido enviada")}
+    if(caja.value = "."){ 
+   alert("su información ha sido enviada")
+}
+else if (caja.value == "number"){
+    alert("pon porfavor una informacion")
+}
 }
